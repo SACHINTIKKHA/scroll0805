@@ -1,0 +1,53 @@
+/* .front{
+    border:5px solid red;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    z-index: 1;
+    position:absolute;
+    top: 10px;
+    left: 5px;
+}
+.mid{
+    border: 5px solid green;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    z-index: 0;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.last{
+    border: 5px solid black;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+img{
+    float: right;
+}
+div::before{
+    content: url(cat.jpg);
+}
+::marker{
+    color: blue;
+    font-size: 50px;
+}
+input:focus{
+    background-color: red;
+    border: 5px solid green;
+} */
+div{
+    overflow: scroll;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

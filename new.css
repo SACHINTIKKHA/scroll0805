@@ -1,0 +1,39 @@
+/* .title{
+    color: red;
+}
+#title{
+    color: yellowgreen;
+}
+h1,h2{
+    color: green;
+}
+body{
+    background:yellow url("cat.jpg") no-repeat right;
+} */
+ /* p{
+   text-align: justify;
+ }
+ h{
+   
+    color: #F2A65A;
+    font-family: cursive;
+ }
+ h1 {
+  font-family: "Playwrite IN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F2A65A;
+} */
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  button{
+    background-color: red;
+    width: 50px;
+  }
+}
+@media screen and (min-width: 769px) {
+  button{
+    background-color: green;
+    width: 50px;
+  }
+}
